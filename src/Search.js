@@ -39,7 +39,7 @@ export default function Search() {
     return (
       <div className="container">
         <div className="row">
-        <div className="col-6">
+        <div className="col-8">
           <div>
             {form}
             <ul>
@@ -52,10 +52,7 @@ export default function Search() {
               </li>
             </ul>
             </div>
-            <div className="col-6">
-             <img src={weather.icon} alt={weather.description} />
-            <div/>
-          </div>
+           </div>
         </div>
       </div>
     );
